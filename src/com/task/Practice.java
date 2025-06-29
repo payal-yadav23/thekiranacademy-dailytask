@@ -9,7 +9,7 @@ public class Practice {
 
 	public void m1() {
 
-		System.out.println("Enter any  String: ");
+		System.out.println("Enter any String: ");
 		String str1 = sc.next();
 
 		String alpha = "";
@@ -29,9 +29,9 @@ public class Practice {
 			}
 		}
 
-		alpha = sortString(alpha);
-		digit = sortString(digit);
-		specials = sortString(specials);
+//		alpha = sortString(alpha);
+//		digit = sortString(digit);
+//		specials = sortString(specials);
 
 		System.out.println("Alphabets: " + alpha);
 		System.out.println("Digits: " + digit);
@@ -39,12 +39,12 @@ public class Practice {
 
 	}
 
-	private String sortString(String str) {
-
-		char[] arr = str.toCharArray();
-		Arrays.sort(arr);
-
-		return new String(arr);
-	}
+//	private String sortString(String str) {
+//
+//		char[] arr = str.toCharArray();
+//		Arrays.sort(arr);
+//
+//		return new String(arr);
+//	}
 
 }
